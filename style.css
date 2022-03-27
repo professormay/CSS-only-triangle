@@ -1,0 +1,22 @@
+body {
+  background-color: #009900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.triangle {
+  position: relative;
+}
+
+.triangle .inner {
+  border: 75px solid transparent;
+  border-bottom: 125px solid #ff66cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+}
+
